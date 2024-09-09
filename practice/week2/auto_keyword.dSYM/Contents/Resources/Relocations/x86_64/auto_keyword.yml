@@ -1,0 +1,8 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/seungjin/CPP2409/practice/week2/auto_keyword'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: __Z3addii, symObjAddr: 0x0, symBinAddr: 0x100000F40, symSize: 0x20 }
+  - { offsetInCU: 0x2E1F, offset: 0x2E1F, size: 0x8, addend: 0x0, symName: __Z3addii, symObjAddr: 0x0, symBinAddr: 0x100000F40, symSize: 0x20 }
+  - { offsetInCU: 0x2E59, offset: 0x2E59, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x20, symBinAddr: 0x100000F60, symSize: 0x38 }
+...
