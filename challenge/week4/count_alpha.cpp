@@ -5,8 +5,8 @@ int main(){
     int vowel = 0;
     int consonant = 0;
     char ch;
+    cout << "영문자를 입력하고 ctrl+z를 치세요: " << endl;
     while (true) {
-        cout << "영문자를 입력하세요: ";
         cin >> ch;
 
         if (!(ch >= 'a' && ch <= 'z')) {
@@ -19,10 +19,9 @@ int main(){
         } else {
             consonant++;
         }
-
-        cout << "모음의 수: " << vowel << "\n";
-        cout << "자음의 수: " << consonant << "\n";
+        cout << "모음: " << vowel << endl;
+        cout << "자음: " << consonant << endl;
     }
-
+    
     return 0;
 }
