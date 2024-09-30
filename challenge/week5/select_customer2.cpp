@@ -25,7 +25,7 @@ int main(){
     cout << "선택해주세요: (1)가장 나이가 많은 사람 출력 (2) 가장 나이가 적은 사람 출력 (3) 종료" << endl;
     cin >> userinput;
       
-    
+    //while(userinput==true)
     switch (userinput)
     {
     case 1:
@@ -52,4 +52,5 @@ int main(){
         cout << "다른 메뉴를 선택해주세요";
     }
     }
+
     
