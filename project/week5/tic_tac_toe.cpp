@@ -56,7 +56,7 @@ int main(){
         cout << "---|---|---" << endl;
         k++;
     
-    
+    //모든 칸 다 찼는지 체크하기
     int checked = 0;
     for (int i = 0; i < numCell; i++){
         for (int j = 0; j < numCell; j++){
@@ -68,8 +68,9 @@ int main(){
     if (checked == 0){
         cout << "모든 칸이 다 찼습니다. 종료합니다." << endl;
     }
-
+    //승자 체크하기
     bool isWin = false;
+    //가로/세로돌 체크하기
     for (int i = 0; i < numCell; i++){
         if(board[i][0] == currentUser && board[i][1] == currentUser && board[i][2] == currentUser){
             cout << "가로에 모두 돌이 놓였습니다!: ";
@@ -80,7 +81,7 @@ int main(){
             isWin = true;
         }
     }
-    
+    //대각선돌 체크하기
     if (board[0][0] == currentUser && board[1][1] == currentUser && board [2][2] == currentUser){
         cout << "왼쪽 위에서 오른쪽 아래 대각선으로 모두 돌이 놓였습니다!: ";
         isWin = true;
