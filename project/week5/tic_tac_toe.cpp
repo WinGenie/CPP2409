@@ -55,8 +55,8 @@ int main(){
         }
         cout << "---|---|---" << endl;
         k++;
-    }
-    return 0;
+    
+    
     int checked = 0;
     for (int i = 0; i < numCell; i++){
         for (int j = 0; j < numCell; j++){
@@ -93,5 +93,8 @@ int main(){
     if (isWin == true){
         cout << k % 2 + 1 << "번 유저(" << currentUser << ")의 승리입니다!" << endl;
         cout << "종료합니다." << endl;
+        break;
     }
+    }
+    return 0;
 }
