@@ -32,7 +32,7 @@ for (int i = 0; i < NUM_USERS; ++i){
 }
 
 int main() {
-    initializePreferences(userPreferences);  // 사용자 선호도 입력
-    findRecommendedItems(userPreferences);  // 추천 항목 출력
+    initializePreferences(userPreferences);  
+    findRecommendedItems(userPreferences); 
     return 0;
 }
