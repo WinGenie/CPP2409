@@ -1,0 +1,14 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/seungjin/CPP2409/practice/week6/myheader_test'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: __Z9summationii, symObjAddr: 0x0, symBinAddr: 0x100000D80, symSize: 0x18 }
+  - { offsetInCU: 0x2E18, offset: 0x2E18, size: 0x8, addend: 0x0, symName: __Z9summationii, symObjAddr: 0x0, symBinAddr: 0x100000D80, symSize: 0x18 }
+  - { offsetInCU: 0x26, offset: 0x2E86, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100000DA0, symSize: 0x60 }
+  - { offsetInCU: 0x465D, offset: 0x74BD, size: 0x8, addend: 0x0, symName: __ZNSt3__14endlB8ue170006IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_, symObjAddr: 0x80, symBinAddr: 0x100000E20, symSize: 0x50 }
+  - { offsetInCU: 0x469D, offset: 0x74FD, size: 0x8, addend: 0x0, symName: __ZNSt3__19use_facetB8ue170006INS_5ctypeIcEEEERKT_RKNS_6localeE, symObjAddr: 0x150, symBinAddr: 0x100000EF0, symSize: 0x30 }
+  - { offsetInCU: 0x6C2B, offset: 0x9A8B, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100000DA0, symSize: 0x60 }
+  - { offsetInCU: 0x6D1C, offset: 0x9B7C, size: 0x8, addend: 0x0, symName: __ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEElsB8ue170006EPFRS3_S4_E, symObjAddr: 0x60, symBinAddr: 0x100000E00, symSize: 0x20 }
+  - { offsetInCU: 0x6D4E, offset: 0x9BAE, size: 0x8, addend: 0x0, symName: __ZNKSt3__19basic_iosIcNS_11char_traitsIcEEE5widenB8ue170006Ec, symObjAddr: 0xD0, symBinAddr: 0x100000E70, symSize: 0x80 }
+  - { offsetInCU: 0x6DBA, offset: 0x9C1A, size: 0x8, addend: 0x0, symName: __ZNKSt3__15ctypeIcE5widenB8ue170006Ec, symObjAddr: 0x180, symBinAddr: 0x100000F20, symSize: 0x2B }
+...
