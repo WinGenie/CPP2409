@@ -1,0 +1,2 @@
+cd /Users/seungjin/CPP2409/project/week10_mud
+g++ -std=c++14 -g *.cpp -o main
