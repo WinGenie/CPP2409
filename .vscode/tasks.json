@@ -8,8 +8,8 @@
                 "-fdiagnostics-color=always",
                 "-std=c++14",
                 "-g",
-                //"${file}", //(파일 하나 컴파일 할 때는 주석 처리 해제)
-                "${fileDirname}\\**.cpp", //(파일 하나 컴파일 할 때는 주석 처리)
+                "${file}", //(파일 하나 컴파일 할 때는 주석 처리 해제)
+                //"${fileDirname}\\**.cpp", //(파일 하나 컴파일 할 때는 주석 처리)
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"
             ],
