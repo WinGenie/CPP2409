@@ -15,7 +15,7 @@ class Student : Person{
     string GetAddress(){
         return address;
     }
-    void SetName(string name){this -> name = name;}
+    void SetName(string name){this->name = name;}
 };
 
 int main(){
